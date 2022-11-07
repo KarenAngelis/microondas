@@ -9,11 +9,12 @@
 
 //1 - Pipoca – 10 segundos (padrão);
 
+
 function pipoca (tempo){ //testado ok
   if (tempo == 10)
   return "Pronto";
 
-else if (tempo == 10 * 2 ) { //testado ok
+else if (tempo == 10 * 2) { //testado ok
   return "Comida queimou"
 }
 else if (tempo <= 9) { // testado ok
@@ -22,14 +23,14 @@ else if (tempo <= 9) { // testado ok
 else if (" ") {
   return "Prato inexistente"; //testado ok
 }
-else if (tempo == 10 * 3 ) { 
+else if (tempo == 10 * 3) { 
   return "Kabumm"
 }
 else {
   return "Prato pronto, bom apetite!!!"
 }};
 
-console.log(pipoca(10 * 2));
+console.log(pipoca( ));
 
 
 
