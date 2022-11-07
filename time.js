@@ -20,17 +20,17 @@ else if (tempo == 10 * 2) { //testado ok
 else if (tempo <= 9) { // testado ok
   return "tempo insuficiente";
 }
+else if (tempo === 10 * 3) { 
+  return "Kabumm"
+}
 else if (" ") {
   return "Prato inexistente"; //testado ok
-}
-else if (tempo == 10 * 3) { 
-  return "Kabumm"
 }
 else {
   return "Prato pronto, bom apetite!!!"
 }};
 
-console.log(pipoca( ));
+console.log(pipoca(10*3));
 
 
 
