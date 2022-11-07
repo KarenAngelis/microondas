@@ -20,11 +20,11 @@ else if (tempo == 10 * 2) { //testado ok
 else if (tempo <= 9) { // testado ok
   return "tempo insuficiente";
 }
-else if (tempo === 10 * 3) { 
+else if (tempo === 10 * 3) {  // testado ok
   return "Kabumm"
 }
-else if (" ") {
-  return "Prato inexistente"; //testado ok
+else if (carne) {
+  return "Prato inexistente"; 
 }
 else {
   return "Prato pronto, bom apetite!!!"
